@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Valentine's Day Doğa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Phase 1: Welcome Page -->
+  <div id="welcome-page" class="phase">
+    <h1>Happy Valentine's Day Doğa!</h1>
+    <button id="continue-btn">Continue</button>
+  </div>
+
+  <!-- Phase 2: Heart Collection Game -->
+  <div id="game-page" class="phase hidden">
+    <h2>Collect 100 Hearts!</h2>
+    <div id="game-area">
+      <div id="heart-counter">Hearts Collected: <span id="count">0</span>/100</div>
+      <div id="player"></div>
+    </div>
+  </div>
+
+  <!-- Phase 3: Message Reveal -->
+  <div id="message-page" class="phase hidden">
+    <div id="messages">
+      <p class="message">You are my favorite...</p>
+      <p class="message">My sunshine...</p>
+      <p class="message">My everything...</p>
+      <!-- Add more messages as needed -->
+    </div>
+    <button id="claim-btn" class="hidden">Claim</button>
+  </div>
+
+  <!-- Phase 4: Final Popup -->
+  <div id="popup" class="hidden">
+    <div id="popup-content">
+      <h2>You are the best! 💖</h2>
+      <p>Thank you for being you!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
