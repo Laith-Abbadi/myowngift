@@ -33,24 +33,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const heartSound = document.getElementById("heartSound");
   
     // --- Memories Data ---
-    const memories = {
-        "first-kiss": {
-          title: "Our First Kiss",
-          text: "The moment our lips met, everything else faded away. 17/3/2022",
-          image: "C:/theproject/assests/firstkiss.jpg"
-        },
-        "first-date": {
-          title: "Our First Date",
-          text: "A night under the stars that changed everything. 10/3/2022",
-          image: "/first-date.jpg"
-        },
-        "anniversary": {
-          title: "Our Anniversary",
-          text: "Celebrating our love and all the moments we've shared. 10/3/2022",
-          image: "assets/pictures/anniversary.jpg"
-        }
-      };
-      
+  const memories = {
+  "first-kiss": {
+    title: "Our First Kiss",
+    text: "The moment our lips met, everything else faded away.",
+    image: "assets/pictures/first-kiss.jpg"
+  },
+  "first-date": {
+    title: "Our First Date",
+    text: "A night under the stars that changed everything.",
+    image: "assets/pictures/first-date.jpg"
+  },
+  "anniversary": {
+    title: "Our Anniversary",
+    text: "Celebrating our love and all the moments we've shared.",
+    image: "assets/pictures/anniversary.jpg"
+  }
+};
+
   
     // --- Utility: Show Section ---
     function showSection(section) {
