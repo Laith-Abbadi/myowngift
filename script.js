@@ -37,17 +37,17 @@ document.addEventListener("DOMContentLoaded", () => {
   "first-kiss": {
     title: "Our First Kiss",
     text: "The moment our lips met, everything else faded away.",
-    image: "assets/pictures/first-kiss.jpg"
+    image: "assests/pictures/first-kiss.jpg"
   },
   "first-date": {
     title: "Our First Date",
     text: "A night under the stars that changed everything.",
-    image: "assets/pictures/first-date.jpg"
+    image: "assests/pictures/first-date.jpg"
   },
   "anniversary": {
     title: "Our Anniversary",
     text: "Celebrating our love and all the moments we've shared.",
-    image: "assets/pictures/anniversary.jpg"
+    image: "assests/pictures/anniversary.jpg"
   }
 };
 
