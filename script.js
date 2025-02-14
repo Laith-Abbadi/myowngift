@@ -34,19 +34,19 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // --- Memories Data ---
   const memories = {
-  "first-kiss": {
+  "first-meeting": {
     title: "Our First Kiss",
-    text: "The moment our lips met, everything else faded away.",
+    text: "The first time we met, everything else faded away. 10/3/2022",
     image: "assests/pictures/first-kiss.jpg"
   },
   "first-date": {
     title: "Our First Date",
-    text: "A night under the stars that changed everything.",
+    text: "A night under the stars that changed everything. 17/3/2022",
     image: "assests/pictures/first-date.jpg"
   },
   "anniversary": {
     title: "Our Anniversary",
-    text: "Celebrating our love and all the moments we've shared.",
+    text: "Celebrating our love and all the moments we've shared. 10/3/2022",
     image: "assests/pictures/anniversary.jpg"
   }
 };
