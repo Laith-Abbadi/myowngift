@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Memories Data ---
   const memories = {
   "first-kiss": {
-    title: "Our First Kiss",
+    title: "Our First Meeting",
     text: "The first time we met, everything else faded away. 10/3/2022",
     image: "assests/pictures/first-kiss.jpg"
   },
